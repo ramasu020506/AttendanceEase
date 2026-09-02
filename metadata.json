@@ -1,0 +1,6 @@
+{
+  "name": "Campus Connect Attendance",
+  "description": "Multi-tenant school attendance SaaS platform with subscription tiers, billing & invoice management, student capacity metering, SMS add-on packages, Super Admin control plane, and isolated AI chatbot copilot.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

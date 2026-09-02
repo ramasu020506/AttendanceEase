@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Inter", -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --color-canvas: #F4F1ED;
+  --color-canvas-subtle: #E8E4DF;
+  --color-canvas-card: #FFFFFF;
+  --color-ink: #1A1A1A;
+  --color-ink-muted: #6B6966;
+  --color-border-hairline: rgba(26, 26, 26, 0.12);
+  --color-border-medium: rgba(26, 26, 26, 0.22);
+
+  --color-primary: #1A1A1A;
+  --color-primary-container: #2A2A2A;
+  --color-primary-fixed: #E8E4DF;
+  --color-primary-dark: #000000;
+  --color-on-primary: #F4F1ED;
+  
+  --color-secondary: #2D5A27;
+  --color-secondary-container: #E2ECE1;
+  --color-on-secondary-container: #1C3D18;
+
+  --color-surface: #F4F1ED;
+  --color-surface-container-low: #E8E4DF;
+  --color-surface-container: #E0DDD8;
+  --color-surface-container-high: #D8D4CE;
+  --color-surface-container-highest: #CFCBC5;
+  --color-surface-muted: #F4F1ED;
+  --color-surface-lowest: #FFFFFF;
+
+  --color-on-surface: #1A1A1A;
+  --color-on-surface-variant: #5A5855;
+  --color-outline: #8A8884;
+  --color-outline-variant: #D5D1CB;
+  --color-border-subtle: rgba(26, 26, 26, 0.1);
+
+  --color-present: #2D5A27;
+  --color-absent: #9B2C2C;
+  --color-late: #B7791F;
+  --color-sms-sent: #1A1A1A;
+  --color-sms-pending: #B7791F;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-ink);
+  background-color: var(--color-canvas);
+}
+
+.font-serif {
+  font-family: "Cormorant Garamond", Georgia, serif;
+}
+
+.font-sans {
+  font-family: "Inter", sans-serif;
+}
+
+.tracking-extra {
+  letter-spacing: 0.25em;
+}
+
+.tracking-widest-subtle {
+  letter-spacing: 0.2em;
+}
+
+.font-mono-code {
+  font-family: var(--font-mono);
+}
+
+
